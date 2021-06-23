@@ -1,0 +1,17 @@
+package com.yalija;
+
+public enum TokenType {
+  // Single character tokens
+  OPENING_PAREN, CLOSING_PAREN, OPENING_BRACE, CLOSING_BRACE, COMMA, DOT, MINUS, PLUS, SEMICOLON, SLASH, ASTERISK,
+
+  // One or two character tokens
+  BANG, INEQUAL, EQUAL, MATCH, GREATER, GREATER_EQUAL, LESSER, LESSER_EQUAL,
+
+  // Literals
+  IDENTIFIER, STRING, NUMBER,
+
+  // Reserved words
+  AND, CLASS, ELSE, FALSE, FUNCTION, FOR, IF, NIL, OR, PRINT, RETURN, SUPER, THIS, TRUE, VAR, WHILE,
+
+  EOF,
+}
