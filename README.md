@@ -7,6 +7,10 @@ Though creating a new programming language by extending this interpreter is defi
 
 Because it's written in Java, it runs on JVM.
 
+## What kind of interpreter is this going to be?
+It will be a tree-walk interpreter, no compilation step, no bytecode generation, let alone machine code generation or any similar fancy stuff.
+<br> It will be slow performance-wise, but it's a great start for learning.
+
 ## Current Status
 - [x] Scanner
 - [ ] Parser
