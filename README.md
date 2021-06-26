@@ -14,7 +14,7 @@ It will be a tree-walk interpreter, no compilation step, no bytecode generation,
 ## Current Status
 - [x] Scanner
 - [ ] Parser
-- [ ] Evaluator
+- [ ] Core interpreter
 
 ## Notes
 All works are done in the [dev](https://github.com/danilhendrasr/yalija/tree/dev) branch. The `main` branch will only be used to tag releases.
