@@ -1,4 +1,4 @@
-package com.yalija;
+package com.yalija.main;
 
 public enum TokenType {
   // Single character tokens

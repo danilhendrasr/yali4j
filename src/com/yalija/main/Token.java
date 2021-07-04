@@ -1,4 +1,4 @@
-package com.yalija;
+package com.yalija.main;
 
 public class Token {
   final TokenType type;

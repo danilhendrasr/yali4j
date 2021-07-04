@@ -1,4 +1,4 @@
-package com.yalija;
+package com.yalija.main;
 
 import java.util.ArrayList;
 import java.util.HashMap;
