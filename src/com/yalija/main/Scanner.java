@@ -97,6 +97,14 @@ public class Scanner {
       case '/':
         if (match('/')) {
           while (peek() != '\n' && !isAtEnd()) advance();
+        } else if (match('*')) {
+          boolean isAtEndComment = false;
+          char prevChar = peek();
+          while (!isAtEndComment && !isAtEnd()) {
+            if (peek() == '\n') line++;
+            if (peek() == '/' && prevChar == '*') isAtEndComment = true;
+            prevChar = advance();
+          }
         } else {
           addToken(TokenType.SLASH);
         }
@@ -167,7 +175,7 @@ public class Scanner {
 
   private boolean match(char c) {
     if (isAtEnd()) return false;
-    if (source.charAt(current) != c) return false;
+    if (peek() != c) return false;
 
     current++;
     return true;
