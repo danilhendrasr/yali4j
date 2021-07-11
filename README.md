@@ -1,19 +1,17 @@
 # YALIJA
 
-## What is it?
-YALIJA stands for Yet Another Lox Interpreter written in Java. Initially I wanted to claim that it's "a new programming language written in Java" because it sounds cooler :p, but unfortunately it's not, I don't design the grammars and such, I'm just coding up the interpreter.
+YALIJA stands for Yet Another Lox Interpreter written in Java. Initially I wanted to claim that it's "a new programming language written in Java" because it sounds cooler :p, 
+but unfortunately it's not, I don't design the grammars and such, I'm just coding up the interpreter... 
+Though creating a new programming language by extending the interpreter is definitely on my mind.
 
-Though creating a new programming language by extending this interpreter is definitely on my mind.
-
-It runs on JVM... I mean, obviously.
-
-## What kind of interpreter is this going to be?
-It will be a tree-walk interpreter, no compilation step, no bytecode generation, let alone machine code generation or any similar fancy stuff.
-<br> It will be slow performance-wise, but it's a great start for learning.
+It's a tree-walking interpreter, no compilation step, no bytecode generation, let alone machine code generation or any similar fancy stuff.
+It's slow performance-wise, but it's a great start for learning.
 
 ## Current Status
+> (🏃‍♂️) means I'm working on it.
+
 - [x] Scanner
-- [ ] Parser
+- [ ] Parser (🏃‍♂️)
 - [ ] Core interpreter
 
 ## I Never Heard of Lox
