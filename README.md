@@ -16,5 +16,5 @@ It will be a tree-walk interpreter, no compilation step, no bytecode generation,
 - [ ] Parser
 - [ ] Core interpreter
 
-## Notes
-All works are done in the [dev](https://github.com/danilhendrasr/yalija/tree/dev) branch. The `main` branch will only be used to tag releases.
+## I Never Heard of Lox
+That's to be expected, Lox language is a language described in Bob Nystrom's book, [Crafting Interpreters](http://craftinginterpreters.com/). It's just language that is created for learning purpose, not a programming language that is used in real world like Java or Python.
