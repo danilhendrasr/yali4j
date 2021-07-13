@@ -12,7 +12,7 @@ It's slow performance-wise, but it's a great start for learning.
 
 - [x] Scanner
 - [ ] Parser (🏃‍♂️)
-- [ ] Core interpreter
+- [ ] Core interpreter (🏃‍♂️)
 
 ## I Never Heard of Lox
 That's to be expected, Lox language is a language defined in Bob Nystrom's book, [Crafting Interpreters](http://craftinginterpreters.com/). It's just a language created for learning purpose, not to be used in real world like Java, Python, or any other major programming languages.
