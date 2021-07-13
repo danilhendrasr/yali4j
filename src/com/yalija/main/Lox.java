@@ -9,6 +9,7 @@ import java.nio.file.Path;
 import java.util.List;
 
 public class Lox {
+  public static final Interpreter interpreter = new Interpreter();
   static boolean hadError = false;
 
   public static void main(String[] args) throws IOException {
@@ -52,8 +53,7 @@ public class Lox {
     if (hadError)
       return;
 
-    System.out.println(new ASTPrinter().print(expression));
-
+    interpreter.interpret(expression);
   }
 
   static void error(Token token, String message) {
