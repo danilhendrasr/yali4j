@@ -27,7 +27,19 @@ public class Parser {
 
   private Stmt statement() {
     if (match(TokenType.PRINT)) return printStatement();
+    if (match(TokenType.OPENING_BRACE)) return new Stmt.Block(block());
     return expressionStatement();
+  }
+
+  private List<Stmt> block() {
+    List<Stmt> statements = new ArrayList<>();
+
+    while (!check(TokenType.CLOSING_BRACE) && !isAtEnd()) {
+      statements.add(declaration());
+    }
+
+    consume(TokenType.CLOSING_BRACE, "Expect '}' after block.");
+    return statements;
   }
 
   private Stmt printStatement() {
