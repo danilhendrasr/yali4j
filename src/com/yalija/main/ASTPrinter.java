@@ -6,6 +6,11 @@ public class ASTPrinter implements Expr.Visitor<String> {
   }
 
   @Override
+  public String visitAssignExpr(Expr.Assign expr) {
+    return null;
+  }
+
+  @Override
   public String visitBinaryExpr(Expr.Binary expr) {
     return parenthesize(expr.operator.lexeme, expr.left, expr.right);
   }
@@ -26,6 +31,11 @@ public class ASTPrinter implements Expr.Visitor<String> {
     return parenthesize(expr.operator.lexeme, expr.right);
   }
 
+  @Override
+  public String visitVariableExpr(Expr.Variable expr) {
+    return null;
+  }
+
   private String parenthesize(String name, Expr... exprs) {
     StringBuilder builder = new StringBuilder();
 
@@ -41,12 +51,12 @@ public class ASTPrinter implements Expr.Visitor<String> {
 
   public static void main(String[] args) {
     Expr expression = new Expr.Binary(
-      new Expr.Unary(
-        new Token(TokenType.MINUS, "-", null, 1),
-        new Expr.Literal(123)
-      ),
-      new Token(TokenType.ASTERISK, "*", null, 1),
-      new Expr.Grouping(new Expr.Literal(45.67))
+            new Expr.Unary(
+                    new Token(TokenType.MINUS, "-", null, 1),
+                    new Expr.Literal(123)
+            ),
+            new Token(TokenType.ASTERISK, "*", null, 1),
+            new Expr.Grouping(new Expr.Literal(45.67))
     );
 
     System.out.println(new ASTPrinter().print(expression));
