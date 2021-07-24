@@ -1,6 +1,7 @@
 package com.yalija.main;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 
 public class Parser {
@@ -26,11 +27,53 @@ public class Parser {
 
 
   private Stmt statement() {
+    if (match(TokenType.FOR)) return forStatement();
     if (match(TokenType.IF)) return ifStatement();
     if (match(TokenType.WHILE)) return whileStatement();
     if (match(TokenType.PRINT)) return printStatement();
     if (match(TokenType.OPENING_BRACE)) return new Stmt.Block(block());
     return expressionStatement();
+  }
+
+  private Stmt forStatement() {
+    consume(TokenType.OPENING_PAREN, "Expect '(' after 'for'.");
+
+    Stmt initializer;
+    if (match(TokenType.SEMICOLON)) {
+      initializer = null;
+    } else if (match(TokenType.VAR)) {
+      initializer = varDeclaration();
+    } else {
+      initializer = expressionStatement();
+    }
+
+    Expr condition = null;
+    if (!check(TokenType.SEMICOLON)) {
+      condition = expression();
+    }
+    consume(TokenType.SEMICOLON, "Expect ';' after loop condition.");
+
+    Expr increment = null;
+    if (!check(TokenType.CLOSING_PAREN)) {
+      increment = expression();
+    }
+    consume(TokenType.CLOSING_PAREN, "Expect ')' after for clauses.");
+
+    Stmt body = statement();
+
+    if (increment != null) {
+      body = new Stmt.Block(Arrays.asList(body,
+              new Stmt.Expression(increment)));
+    }
+
+    if (condition == null) condition = new Expr.Literal(true);
+    body = new Stmt.While(condition, body);
+
+    if (initializer != null) {
+      body = new Stmt.Block(Arrays.asList(initializer, body));
+    }
+
+    return body;
   }
 
   private Stmt whileStatement() {
