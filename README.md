@@ -59,7 +59,7 @@ and programming languages popping up every so often. And upon realizing that mos
 curiosity, and thus I decided to explore deeper.
 
 I chose to start with learning how programming languages are made, since programming language is the very fundamental building block to every tool 
-that exists today, and it's also a thing every programmer uses on a day-to-day basis. Thankfully I stumbled upon Bob Nystrom's [craftinginterpreters.com](https://craftinginterpreters.com) which provide a very valuable guidance for free.
+that exists today, and it's also a thing every programmer uses on a day-to-day basis. Thankfully I stumbled upon Bob Nystrom's [craftinginterpreters.com](https://craftinginterpreters.com) which provides a very valuable guidance for free.
 
 <!-- GETTING STARTED -->
 ## Getting Started
