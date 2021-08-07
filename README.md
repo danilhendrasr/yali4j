@@ -113,12 +113,12 @@ Danil Hendra Suryawan - danilhendrasr@gmail.com
 [contributors-url]: https://github.com/othneildrew/Best-README-Template/graphs/contributors
 [forks-shield]: https://img.shields.io/github/forks/othneildrew/Best-README-Template.svg?style=for-the-badge
 [forks-url]: https://github.com/othneildrew/Best-README-Template/network/members
-[stars-shield]: https://img.shields.io/github/stars/othneildrew/Best-README-Template.svg?style=for-the-badge
+[stars-shield]: https://img.shields.io/github/stars/danilhendrasr/yalija.svg?style=for-the-badge
 [stars-url]: https://github.com/danilhendrasr/yalija/stargazers
-[issues-shield]: https://img.shields.io/github/issues/othneildrew/Best-README-Template.svg?style=for-the-badge
+[issues-shield]: https://img.shields.io/github/issues/danilhendrasr/yalija.svg?style=for-the-badge
 [issues-url]: https://github.com/danilhendrasr/yalija/issues
-[license-shield]: https://img.shields.io/github/license/othneildrew/Best-README-Template.svg?style=for-the-badge
-[license-url]: https://github.com/othneildrew/Best-README-Template/blob/master/LICENSE.txt
+[license-shield]: https://img.shields.io/github/license/danilhendrasr/yalija.svg?style=for-the-badge
+[license-url]: https://github.com/danilhendrasr/yalija/main/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/danilhendrasr
 [product-screenshot]: images/screenshot.png
