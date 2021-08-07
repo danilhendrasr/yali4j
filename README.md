@@ -50,7 +50,7 @@ YALIJA stands for Yet Another Lox Interpreter written in Java. Initially I wante
 Lox is a programming language defined in Bob Nystrom's book, [Crafting Interpreters](http://craftinginterpreters.com/). It's a language created for learning purpose only, and not used in real industry-standard environment like Java, Python, or any other major programming language does.
 
 As for this interpreter, it's a tree-walking interpreter, which kicks up the core interpreter right after parsing is done, it walks through the AST while evaluating each node as it goes through. There's no compilation step, no bytecode generation, let alone machine code generation or any similar fancy stuff.
-It's relatively slow performance-wise, but it's a great start for learning.
+Bob Nystrom said it's relatively slow performance-wise, but I don't think it matters, it's a great start for learning.
 
 ### Why I built this
 
