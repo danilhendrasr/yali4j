@@ -71,7 +71,10 @@ you can simply google it. Or you can go to [here](https://www.oracle.com/java/te
 
 ### Installation
 
-_Will be updated soon._
+Go to the [releases page](https://github.com/danilhendrasr/yalija/releases) and download the latest release's jar. Then run it in your terminal, with the following command.
+```bash
+java -jar yalija-x.x.x-release-name.jar
+```
 
 <!-- USAGE EXAMPLES -->
 ## Usage
