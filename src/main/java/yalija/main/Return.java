@@ -1,4 +1,4 @@
-package com.yalija.main;
+package yalija.main;
 
 public class Return extends RuntimeException {
   final Object value;

@@ -1,4 +1,4 @@
-package com.yalija.main;
+package yalija.main;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -125,7 +125,7 @@ public class Scanner {
           number();
         } else if (isAlpha(c)) {
           identifier();
-        }else {
+        } else {
           Lox.error(line, "Unexpected character");
         }
         break;
@@ -148,7 +148,7 @@ public class Scanner {
       // Consume the "."
       advance();
 
-      while(isDigit(peek())) advance();
+      while (isDigit(peek())) advance();
     }
 
     addToken(TokenType.NUMBER, Double.parseDouble(source.substring(start, current)));

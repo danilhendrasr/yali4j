@@ -1,4 +1,4 @@
-package com.yalija.tool;
+package yalija.tool;
 
 import java.io.IOException;
 import java.io.PrintWriter;
