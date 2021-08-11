@@ -56,10 +56,10 @@ Bob Nystrom said it's relatively slow performance-wise, but I don't think it mat
 
 I've always had this vague curiosity about how things works under the hood. Especially in software engineering, since we got all these amazing tools, frameworks,
 and programming languages popping up every so often. And upon realizing that most of these tools are hand-crafted by programmers, it kind of provoked my
-curiosity, and thus I decided to explore deeper.
+curiosity.
 
-I chose to start with learning how programming languages are made, since programming language is the very fundamental building block to every tool 
-that exists today, and it's also a thing every programmer uses on a day-to-day basis. Thankfully I stumbled upon Bob Nystrom's [craftinginterpreters.com](https://craftinginterpreters.com) which provides a very valuable guidance for free.
+And one thing I'm always curious about is how programming languages are made, since programming language is the very fundamental building block 
+to every tool that exists today, and it's also a thing every programmer uses on a day-to-day basis. Thankfully I stumbled upon Bob Nystrom's [craftinginterpreters.com](https://craftinginterpreters.com) which provides a very valuable guidance for free.
 
 <!-- GETTING STARTED -->
 ## Getting Started
