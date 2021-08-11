@@ -81,24 +81,9 @@ The above command will run yalija in REPL mode. If you wanted to run a file, run
 java -jar yalija-x.x.x-release-name.jar hello_world.lox
 ```
 
-<!-- USAGE EXAMPLES -->
-## Usage
-
-_Will be updated soon._
-
-<!-- ROADMAP -->
-## Project Status
-
-Here's the status of the core components.
-> (🏃‍♂️) means I'm working on it.
-
-- [x] Scanner
-- [x] Parser (🏃‍♂️)
-- [x] Core interpreter (🏃‍♂️)
-
 ## Features
 
-_Will be updated soon_
+_Documentation coming up soon_
 
 
 <!-- LICENSE -->
