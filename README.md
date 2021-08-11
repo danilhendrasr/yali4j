@@ -85,8 +85,12 @@ Here's the status of the core components.
 > (🏃‍♂️) means I'm working on it.
 
 - [x] Scanner
-- [ ] Parser (🏃‍♂️)
-- [ ] Core interpreter (🏃‍♂️)
+- [x] Parser (🏃‍♂️)
+- [x] Core interpreter (🏃‍♂️)
+
+## Features
+
+_Will be updated soon_
 
 
 <!-- LICENSE -->
