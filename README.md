@@ -65,8 +65,8 @@ to every tool that exists today, and it's also a thing every programmer uses on 
 
 ### Prerequisites
 
-You need to have JDK 11 or above installed on your computer. There are many flavors of JDK and tutorials online to guide you if you don't know how to install it, 
-you can simply google it. Or you can go to [here](https://www.oracle.com/java/technologies/javase-downloads.html) if you're not sure.
+You need to have JDK 11 or later installed on your computer. There are many flavors of JDK and tutorials online to guide you if you don't know how to install it, 
+you can simply google it. Or you can go [here](https://www.oracle.com/java/technologies/javase-downloads.html) if you're unsure.
 
 ### Installation
 
