@@ -1,5 +1,5 @@
 <p align="center">
-  <h1 align="center">YALIJA</h1>
+  <h1 align="center">yali4j</h1>
 
   <p align="center">
     Yet Another Lox Interpreter, written in Java.
