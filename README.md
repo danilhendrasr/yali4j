@@ -44,7 +44,7 @@
 
 <!-- [![Product Name Screen Shot][product-screenshot]](https://example.com) -->
 
-YALIJA stands for Yet Another Lox Interpreter written in Java. Initially I wanted to claim that it's "a new programming language written in Java" because it sounds cooler :p, but it's not.
+yali4j is just another Lox interpreter written in Java. Initially I wanted to claim that it's "a new programming language written in Java" because it sounds cooler :p, but it's not.
 
 Lox is a programming language defined in Bob Nystrom's book, [Crafting Interpreters](http://craftinginterpreters.com/). It's a language created for learning purpose , and not used in real industry-standard environment like Java, Python, or any other major programming language does.
 
@@ -60,14 +60,14 @@ you can simply google it. Or you can go [here](https://www.oracle.com/java/techn
 
 ### Installation
 
-Go to the [releases page](https://github.com/danilhendrasr/yalija/releases) and download the latest release's jar. Then run it in your terminal, with the following command,
+Go to the [releases page](https://github.com/danilhendrasr/yali4j/releases) and download the latest release's jar. Then run it in your terminal, with the following command,
 ```bash
-java -jar yalija-x.x.x-release-name.jar
+java -jar yali4j-x.x.x-release-name.jar
 ```
 
-The above command will run yalija in REPL mode. If you wanted to run a file, run the following command,
+The above command will run yali4j in REPL mode. If you wanted to run a file, run the following command,
 ```
-java -jar yalija-x.x.x-release-name.jar hello_world.lox
+java -jar yali4j-x.x.x-release-name.jar hello_world.lox
 ```
 
 ## Features
@@ -78,7 +78,7 @@ _Documentation coming up soon_
 <!-- LICENSE -->
 ## License
 
-Distributed under the MIT License. See [LICENSE](https://github.com/danilhendrasr/yalija/blob/main/LICENSE) for more information.
+Distributed under the MIT License. See [LICENSE](https://github.com/danilhendrasr/yali4j/blob/main/LICENSE) for more information.
 
 
 <!-- CONTACT -->
@@ -99,12 +99,12 @@ Danil Hendra Suryawan - danilhendrasr@gmail.com
 [contributors-url]: https://github.com/othneildrew/Best-README-Template/graphs/contributors
 [forks-shield]: https://img.shields.io/github/forks/othneildrew/Best-README-Template.svg?style=for-the-badge
 [forks-url]: https://github.com/othneildrew/Best-README-Template/network/members
-[stars-shield]: https://img.shields.io/github/stars/danilhendrasr/yalija.svg?style=for-the-badge
-[stars-url]: https://github.com/danilhendrasr/yalija/stargazers
-[issues-shield]: https://img.shields.io/github/issues/danilhendrasr/yalija.svg?style=for-the-badge
-[issues-url]: https://github.com/danilhendrasr/yalija/issues
-[license-shield]: https://img.shields.io/github/license/danilhendrasr/yalija.svg?style=for-the-badge
-[license-url]: https://github.com/danilhendrasr/yalija/blob/main/LICENSE
+[stars-shield]: https://img.shields.io/github/stars/danilhendrasr/yali4j.svg?style=for-the-badge
+[stars-url]: https://github.com/danilhendrasr/yali4j/stargazers
+[issues-shield]: https://img.shields.io/github/issues/danilhendrasr/yali4j.svg?style=for-the-badge
+[issues-url]: https://github.com/danilhendrasr/yali4j/issues
+[license-shield]: https://img.shields.io/github/license/danilhendrasr/yali4j.svg?style=for-the-badge
+[license-url]: https://github.com/danilhendrasr/yali4j/blob/main/LICENSE
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/danilhendrasr
 [product-screenshot]: images/screenshot.png
